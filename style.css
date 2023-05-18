@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+
+.intro-container h1{
+    font-size: 5rem;
+    font-family: 'Caveat', cursive;
+}
+
+.intro-container h2{
+    font-size: 2rem;
+}
+.intro-container {
+    position: relative;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+body {
+    color: #40514E;
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+.carousel-inner{
+    max-width: 750px !important;
+}
+
+.carousel{
+    display: flex;
+    justify-content: center;
+}
+
+#hero {
+    background-image: url("./back2.jpg");
+    background-color: skyblue;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding: 2rem 2rem;
+    text-align: center;
+    }
+
+#hero p {
+    font-size: 1.2rem;
+    text-align: center;
+    max-width: 400px;
+    margin-bottom: 2rem;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.2s ease;
+    margin-bottom: 1rem;
+}
+
+#services {
+    margin-top: 2.5rem;
+    margin-bottom: 3rem,
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+    
+#services ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+}
+    
+#services li {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+    font-size: 1.5rem;
+}
+    
+.service-icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+    
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+label {
+    font-size: 1.2rem;
+}
+    
+input,textarea {
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1.2rem;
+}
+    
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background-color 0.2s ease;
+    cursor: pointer;
+}
+    
+input[type="submit"]:hover {
+    background-color: #0062cc;
+}
+    
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.carousel {
+    position: relative;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #43dcd0, #55dd39, #92e5dd);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+
